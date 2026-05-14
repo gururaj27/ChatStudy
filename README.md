@@ -76,7 +76,7 @@ Client-server chat applications are foundational to real-time communication over
 Client Program:
 
 
-import socket
+     import socket
 s = socket.socket()
 host = input(str('Enter hostname or host IP : ')) port 
 = 8080
