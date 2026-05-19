@@ -123,7 +123,16 @@ Client-server chat applications are foundational to real-time communication over
            incoming_message.decode() 
            print(' Client : ',
            incoming_message) print()
+           
+##output:
 
+##client:
+
+<img width="1779" height="982" alt="Screenshot 2026-05-19 133113" src="https://github.com/user-attachments/assets/f71ac69d-dcbd-4108-8cc6-f65cce0840c8" />
+
+##server:
+
+<img width="1760" height="990" alt="image" src="https://github.com/user-attachments/assets/de7a65c8-ccd8-4a48-8ffe-eb689d322dcd" />
 
 ## Result:
 
