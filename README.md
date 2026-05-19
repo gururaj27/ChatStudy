@@ -82,16 +82,16 @@ Client-server chat applications are foundational to real-time communication over
       s.connect((host, port)) 
      print('Connected to chat server') 
      while 1:
-     incoming_message = s.recv(1024) 
-     incoming_message = 
-     incoming_message.decode() print(' Server : ',
-     incoming_message) print()
-     message = input(str('>> ')) 
-     message = 
-     message.encode() 
-     s.send(message) 
-     print('Sent')
-     print()
+          incoming_message = s.recv(1024) 
+          incoming_message = 
+          incoming_message.decode() print(' Server : ',
+          incoming_message) print()
+          message = input(str('>> ')) 
+          message = 
+          message.encode() 
+          s.send(message) 
+          print('Sent')
+          print()
 
 ##Server Program:
 
@@ -111,18 +111,18 @@ Client-server chat applications are foundational to real-time communication over
      server') print()
      while 1:
      message = 
-     input(str('>> ')) 
-     message = 
-     message.encode(
-     ) 
-     conn.send(messa
-     ge) print('Sent')
+           input(str('>> ')) 
+           message = 
+           message.encode(
+           ) 
+           conn.send(messa
+           ge) print('Sent')
      print()
      incoming_message = conn.recv(1024) 
-     incoming_message = 
-    incoming_message.decode() 
-    print(' Client : ',
-    incoming_message) print()
+           incoming_message = 
+           incoming_message.decode() 
+           print(' Client : ',
+           incoming_message) print()
 
 
 ## Result:
